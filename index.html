@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <header id="header">
+        <div class="header-container">
+            <div class="logo-div">
+                <img src="img/clothes-icon-png-4.jpg" alt="logo">
+                <h1>JeWear</h1>
+            </div>
+            <div class="categories">
+                <a href="#">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Children</a>
+                <a href="#">Home</a>
+                <a href="#">Beauty</a>
+            </div>
+            <div id="busines-icons">
+                <div class="mode-swich">
+                    <img src="/img/moon.png" alt="moon" id="mode-icon">
+                </div>
+                <img src="img/dark-heart.png" alt="heart" id="heart" title="Favorites">
+                <div class="open-shop-card">
+                    <img src="img/dark-shop.png" alt="sgopping cart" id="shop" title="Shoping Cart">
+                    <div class="cart-content">
+                        <div class="empty-shop">
+                            <img src="img/shopblue.png" alt="" id="shopping-img">
+                            <p id="empty-bag">The shopping bag is empty</p>
+                        </div>
+                        <div id="shop-card">
+                            
+                        </div>
+                        <div id="total-sum"></div>
+                        <button id="check">View Bag (<span id="count">0</span>)</button>
+                    </div>
+                </div>
+                <div id="hamburger">
+                    <div id="lines-container">
+                        <div class="line"></div>
+                    </div>
+                    <nav id="nav">
+                        <a href="#">Profile</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Messages</a>
+                        <a href="#">Vouchers</a>
+                        <a href="#">Points</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="slider-section">
+            <div id="slider-container">
+                <div id="slider">
+                    <div class="captionz">
+                        <p id="data"></p>
+                        <button class="buy-now">Shop now</button>
+                    </div>
+                </div>
+                <div id="slider-content">
+                    <div class="arrows">
+                        <div class="arrow-left">
+                            <img src="img/iconmonstr-arrow-left-circle-lined-240 (1).png" alt="">
+                        </div>
+                        <div class="arrow-right">
+                            <img src="img/iconmonstr-arrow-right-circle-lined-240 (1).png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- categories section -->
+
+        <section id="category">
+            <div class="category-container">
+                <div class="title">
+                    <h1>Shop by category</h1>
+                </div>
+                <div class="shop-by">
+                    <div class="one-category">
+                        <img src="https://img.ltwebstatic.com/images3_pi/2021/04/14/1618388133c696177b0ce5eab92b43c286b30f1b8f_thumbnail_600x.webp" alt="top">
+                        <a href="#">Tops</a>
+                    </div>
+                    <div class="one-category">
+                        <img src="https://img.ltwebstatic.com/images3_pi/2020/09/03/15991034852e07020094d729e4bfd11753fdfb2d18_thumbnail_600x.webp" alt="Lingerie">
+                        <a href="#">Lingerie <br> & Nightwear</a>
+                    </div>
+                    <div class="one-category">
+                        <img src="https://img.ltwebstatic.com/images3_pi/2022/03/25/16481756316cfd98a171b5c2dc558a890092d7815a_thumbnail_600x.webp" alt="dress">
+                        <a href="#">Dresses</a>
+                    </div>
+                    <div class="one-category">
+                        <img src="https://img.ltwebstatic.com/images3_pi/2022/09/13/1663039921193c3d29497aa1473f60d97ce666381e_thumbnail_600x.webp" alt="Jumpsuits">
+                        <a href="#">Co-Ord Sets <br> & Jumpsuits</a>
+                    </div>
+                    <div class="one-category">
+                        <img src="https://img.ltwebstatic.com/images3_pi/2021/12/30/1640852584183da69be9f12fac3addd8ca69f45b53_thumbnail_600x.webp" alt="Beachwear">
+                        <a href="#">Beachwear</a>
+                    </div>
+                    <div class="one-category">
+                        <img src="https://img.ltwebstatic.com/images3_pi/2022/09/07/1662540438a3e6d7091dadfc005cf2b6945d182319_thumbnail_600x.webp" alt="Shoes">
+                        <a href="#">Shoes <br> & Accessories</a>
+                    </div>
+                    <div class="one-category">
+                        <img src="https://img.ltwebstatic.com/images3_pi/2022/01/18/1642485191b555534984ae36153b1c51e27d4c665e_thumbnail_600x.webp" alt="bottom">
+                        <a href="#">Bottoms</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- shop-section -->
+
+        <section id="clothes">
+            <div class="clothes-container">
+                <div class="cloth-title">
+                    <h1>New</h1>
+                </div>
+                <div id="clothes-content"></div>
+                
+
+                <div class="cloth-button">
+                    <button class="more-btn">More</button>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <p>2023&copy; JeWear All Rights Deserved</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
